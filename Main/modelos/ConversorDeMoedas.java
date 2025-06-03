@@ -14,7 +14,7 @@ public class ConversorDeMoedas {
 
     public static double obterTaxaDeCambio(String de, String para) {
         try {
-            URI conversor = URI.create("https://api.exchangerate.host/convert?from=" + de + "&to=" + para + "&apikey=742ea628");
+            URI conversor = URI.create("https://api.exchangerate.host/convert?from=" + de + "&to=" + para + "&apikey=");
 
             HttpRequest request = HttpRequest.newBuilder()
                     .uri(conversor)
