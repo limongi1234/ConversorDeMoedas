@@ -1,5 +1,3 @@
-package Main;
-
 import java.util.Scanner;
 
 public class Principal {
@@ -66,8 +64,7 @@ public class Principal {
 
                         if (taxa != -1) {
                             double convertido = valor * taxa;
-                            System.out.printf("Taxa: %.4f\n", taxa);
-                            System.out.printf("Valor convertido: %.2f %s\n", convertido, para);
+                            System.out.printf("Taxa: %.4f%nValor convertido: %.2f %s%n", taxa, convertido, para);
                         } else
                             System.out.println("Erro ao obter taxa de câmbio.");
                     }
